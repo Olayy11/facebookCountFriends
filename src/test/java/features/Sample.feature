@@ -3,11 +3,11 @@ Feature: Facebook friends count
 
   Scenario: 01_Searching for Facebook friends
     Given Facebook Website is opened in Chrome browser
-    When  User enter 'ollayy@mail.ru' at name field
-    And  User enter 'margaritamargarita' at password field
+    When User enter 'testcount11145@gmail.com' at name field - registered email
+    And User enter 'qwertyQ1' at password field - valid password
     And User click Enter at enter button
-    And Facebook's friends page for user 'maksim.koshelenko' is opened in Chrome browser
+    And Facebook's friends page for user 'kseniya.maskalik' is opened in Chrome browser
     Then Scroll friends to bottom
-    And  Count friends is shown
+    And Count friends is shown
 
 

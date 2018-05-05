@@ -1,4 +1,4 @@
-# cucumberfirst
+# Facebook Count
 ***
 Project for testing different web drivers using JAVA+SELENIUM+CUCUMBER solution.
  
@@ -11,5 +11,10 @@ There is two ways for executing tests using cucumber first solution:
 * CucumberRunner class (right click of mouse and choosing "Run CucumberRunner" option)
 * Sample.feature class (right click of mouse and choosing "Run Feature: Sample" option)
 ***
-+ [Downloading and executing tests using MAC](https://www.youtube.com/watch?v=eaKWxAvwtKw "cucumberfirst solutin (SELENIUM+JAVA+CUCUMBER)")
-+ [Downloading and executing tests using WIN](https://www.youtube.com/watch?v=6rFOqZUesko&t=3s "cucumberfirst solutin (SELENIUM+JAVA+CUCUMBER)")
+Data for testing:
+
+* Registered a test account: testcount11145@gmail.com
+* Password: qwertyQ1
+* Information about friends must be open to users in the settings for each test page
+* IMPORTANT: The actual number of friends and the number displayed on Facebook are different. So, don't look at counting friends at the top of the page on Facebook.
++ [Take a look at the different quantities](https://image.ibb.co/iSY7W7/screen_Friends.png "210 and 207 are fake quantities, and 205 (204+1) it's real")
